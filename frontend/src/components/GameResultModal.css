@@ -1,0 +1,70 @@
+
+.results__modal-content {
+    padding: 0;
+  }
+  
+  .results__modal-actions {
+     text-align: right;
+  }
+  
+  .results-container {
+    height: 15rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    background-color: #f9f9f9;
+    overflow: auto;
+  }
+
+  .results-container input {
+    padding: 1rem 0.5 rem;
+    width: 80%
+  }
+
+  .results-container label {
+    padding: 1rem ;
+    font-weight: bold;
+  }
+
+  .results-container p {
+    text-align: center;
+  }
+
+  .list-container {
+    margin: 2rem auto;
+    padding: 1rem 0.5rem;
+    border: 0.2rem solid #ff0055;; /* green border */
+    border-radius: 1rem; /* rounded corners */
+    background-color: #f9f9f9; /* light background */
+    overflow-y: auto; 
+    box-sizing: border-box;
+}
+
+.styled-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for individual list items */
+.styled-list li {
+    padding: 0.45rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff; /* white background for list items */
+    border: 0.1rem solid #ddd; /* light gray border */
+    border-radius: 0.5rem; /* rounded corners */
+    font-size: 1rem; /* text size */
+    color: #333; /* text color */
+}
+
+/* Styling for the total row */
+.total-row {
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    background-color: #e8f5e9; /* light green background */
+    border: 0.2rem solid #ff0055;; /* green top border */
+    font-weight: bold; /* bold text */
+    text-align: center; /* center text */
+    font-size: 1rem; /* text size */
+    color: #333; /* text color */
+    border-radius: 0.5rem; /* rounded corners */
+}

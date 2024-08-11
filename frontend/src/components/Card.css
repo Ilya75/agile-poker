@@ -1,0 +1,40 @@
+.card {
+    width: 80px;
+    height: 120px;
+    background-color: white;
+/*    border: 2px solid #ccc;*/
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .card-selected {
+    border: 2px solid #ff0055;
+  }
+
+  .card-not-selected {
+    border: 2px solid #ccc;
+  }
+
+  .card-back {
+    width: 80px;
+    height: 120px;
+    background-color: #b3e5fc; /* Light blue background */
+/*    border: 2px solid #ccc;*/
+    border-radius: 10px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #b3e5fc,
+      #b3e5fc 10px,
+      #81d4fa 10px,
+      #81d4fa 20px
+    ); /* Gradient with lines */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }

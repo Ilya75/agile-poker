@@ -1,0 +1,23 @@
+version: "3.8"
+services: 
+  backend:
+    build: ./backend
+    container_name: agile-poker-api
+    # build:
+    #   context: ./backend
+    #   dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+
+  frontend:
+    build:
+      ./frontend
+    container_name: agile-poker-ui
+    environment:
+      #REACT_APP_PT_API_SERVICE_SERVICE_HOST: 192.168.1.16:5000
+      #REACT_APP_PT_API_SERVICE_UI_HOST: 192.168.1.16:80   
+      env_file: ./frontend/.env
+    ports:
+      - '80:80'
+    depends_on:
+      - backend

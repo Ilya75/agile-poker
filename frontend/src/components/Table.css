@@ -1,0 +1,38 @@
+.table {
+    width: 80%;  
+    height: 350px;  
+    background-color: green;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;  
+    margin: 20px auto;  
+  }
+
+  /*.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }*/
+  
+  .user {
+    margin-bottom: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto; /* Adjust the margin value as needed */
+  }
+  
+  .card-bottom {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 5px; /* Adjust the margin value as needed */
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0;
+  }

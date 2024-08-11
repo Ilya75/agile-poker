@@ -1,0 +1,28 @@
+.login {
+  margin: 50px;
+}
+
+.login p {
+  text-align: center;
+  color: #ff0055;
+  font-weight: bold;
+}
+
+.login input {
+  margin-right: 10px;
+}
+
+.login button {
+  cursor: pointer;
+}
+
+.login-form {
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}

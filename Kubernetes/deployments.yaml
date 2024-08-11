@@ -1,0 +1,52 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: poker-table-ui
+  name: poker-table-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: poker-table-ui
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: poker-table-ui
+    spec:
+      containers:
+      - image: ilya75/poker-table-ui-arm:latest
+        name: poker-table-ui
+status: {}
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: poker-table-api
+  name: poker-table-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: poker-table-api
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: poker-table-api
+    spec:
+      containers:
+      - image: ilya75/poker-table-api-arm:latest
+        name: poker-table-api
+status: {}
+
+---

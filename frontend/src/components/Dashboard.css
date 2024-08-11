@@ -1,0 +1,23 @@
+.dashboard {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    background-color: lightblue;
+}
+
+.centered {
+    width: 100%;
+    height: 80%;
+}  
+
+.centered a {
+    text-align: center;
+}
+
+.dashboard-centered {
+    display: flex;
+    justify-content: center; 
+    align-Items: center;
+}
+
